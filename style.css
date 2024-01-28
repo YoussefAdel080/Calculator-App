@@ -1,0 +1,153 @@
+body
+{
+    background-color: #3a4563;
+    font-family: 'League Spartan', sans-serif;
+}
+
+#calc
+{
+    width:40%;
+    margin:auto;
+}
+
+#info
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+
+}
+
+#screen
+{
+    width: 100%;
+    background-color: #171e32;
+    height: 120px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+}
+
+.calc-body
+{
+    width: 100%;
+    background-color: #242C44;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.calc-btn
+{
+    
+    background-color: #ECE7E1;
+    border: 0px;
+    border-radius: 10px;
+    padding: 16px 40px ;
+    color: hsl(221, 14%, 31%);
+    font-size: 40px;
+    font-weight:600 ;
+    font-family: 'League Spartan', sans-serif;
+    border-bottom: #c2beba solid 4px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+.calc-row
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.last-calc-row
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.last-row-btn
+{
+    width: 43%;
+    padding: 20px 60px ;
+}
+
+#equal-btn
+{
+    background-color: #D03E30;
+    color: white;
+    border: 0px;
+    border-bottom: #a33127 solid 5px;
+    font-size: 28px;
+    font-weight:600 ;
+    font-family: 'League Spartan', sans-serif;
+    border-radius: 10px;
+    height: 60px;
+}
+
+#reset-btn
+{
+    background-color: hsl(225, 21%, 49%);
+    color: white;
+    border: 0px;
+    border-bottom: hsl(225, 21%, 38%) solid 5px;
+    border-radius: 10px;
+    font-size: 28px;
+    font-weight:600 ;
+    font-family: 'League Spartan', sans-serif;
+    border-radius: 10px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#delete-btn
+{
+    background-color: hsl(225, 21%, 49%);
+    color: white;
+    border: 0px;
+    border-bottom: hsl(225, 21%, 38%) solid 5px;
+    padding: 20px 31px;
+    font-size: 28px;
+    font-weight:600 ;
+    font-family: 'League Spartan', sans-serif;
+    border-radius: 10px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+#result
+{
+    color: white;
+    font-size: 50px;
+    font-family: 'League Spartan', sans-serif;
+    position: absolute;
+    right: 25px;
+    top: 30px;
+    margin: 0px;
+}
+
+.operator
+{
+        
+    background-color: #ECE7E1;
+    border: 0px;
+    border-radius: 10px;
+    padding: 16px 40px ;
+    color:hsl(221, 14%, 31%);
+    font-size: 40px;
+    font-weight:600 ;
+    font-family: 'League Spartan', sans-serif;
+    border-bottom: #c2beba solid 4px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#subtraction-op
+{
+    padding: 20px 43px ;
+}
